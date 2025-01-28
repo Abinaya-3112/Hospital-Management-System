@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Dr. Clinic </title>
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="patient.css">
+   <script src="patient.js"></script>
+</head>
+
+<body>
+   <header class="header-hms">
+      <div class="header-container">
+         <h1>Welcome to Dr. Clinic</h1>
+      </div>
+   </header>
+   <div class="header">
+      <h2 class="heading">
+         All Patients Here by informs that
+      </h2>
+   </div>
+   <main>
+      <div class="container">
+         <h2 class="heading">
+            Registration / Appointment
+         </h2>
+         <p id="reg-info">Capture and store patient information securely.</p>
+         <form action="index.html" id="registerForm" method="post">
+            <div>
+               <label>Full name<sup><span>&ast;</span></sup>:</label>
+               <input type="text" id="fullname" placeholder="eg- ram kumar" required>
+            </div>
+            <div>
+               <label>Age<sup><span>&ast;</span></sup>:</label>
+               <input type="text" id="age" placeholder="eg- 23" required>
+            </div>
+            <div>
+               <label>Mobile number<sup><span>&ast;</span></sup>:</label>
+               <input type="text" id="mobile" placeholder="eg- 9067342851" required>
+            </div>
+            <div>
+               <label>Symptoms:</label>
+               <textarea name="symptoms" id="symptoms" placeholder="Fever, Diarrhe, Faligue, Coughing"></textarea>
+            </div>
+            <div>
+               <label>Email:</label>
+               <input type="text" id="mail" placeholder="ram123@gamil.com">
+            </div>
+            <div>
+               <button type="submit" id="register-btn">Submit Now</button>
+            </div>
+            <span id="dis"></span>
+         </form>
+         <img src="schedule.jpeg" alt="bg-img">
+      </div>
+      <div class="container-box" id="ok">
+         <div class="box">
+            <img src="idea-img.jpg" alt="call">
+            <h4 class="box-txt">
+               <a href="tel:+91-234-567-89">
+                  <img class="icons" src="call.jpeg" alt="call-img">
+                  Emergency call
+               </a>
+            </h4>
+         </div>
+         <div class="box">
+            <img src="ktdurr9y.jpeg" alt="email">
+            <h4 class="box-txt">
+               <a href="mailto:help@dr.care">
+                  <img class="icons" src="email.jpeg" alt="email-img">
+                  Cantact mail
+               </a>
+            </h4>
+         </div>
+      </div>
+   </main>
+   <footer>
+      <p>&copy; 2024 Dr. Clinic. All rights reserved.</p>
+   </footer>
+</body>
+</html>
